@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["easy","This module makes it easy."]]};
+initSidebarItems({"mod":[["easy","This module makes it easy."]]});
