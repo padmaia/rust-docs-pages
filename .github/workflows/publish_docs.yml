@@ -15,6 +15,6 @@ jobs:
         with:
           command: doc
       - run: rm -rf /docs/docs.rs
-      - run: mv -r /target/docs /docs/docs.rs
+      - run: cp -r /target/docs /docs/docs.rs
       - run: git add .
       - run: git cm 'Update docs'
