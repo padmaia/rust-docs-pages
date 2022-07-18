@@ -14,6 +14,7 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: doc
+      - run: ls -a
       - run: rm -rf /docs/docs.rs
       - run: cp -r /target/docs /docs/docs.rs
       - run: git add .
