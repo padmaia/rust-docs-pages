@@ -14,8 +14,8 @@ jobs:
       - uses: actions-rs/cargo@v1
         with:
           command: doc
-      - run: ls -a
-      - run: rm -rf /docs/docs.rs
-      - run: cp -r /target/doc /docs/docs.rs
+      - run: pwd
+      - run: rm -rf ./docs/docs.rs
+      - run: cp -r ./target/doc ./docs/docs.rs
       - run: git add .
       - run: git cm 'Update docs'
