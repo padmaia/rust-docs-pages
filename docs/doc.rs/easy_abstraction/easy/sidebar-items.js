@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["abstraction","Use the abstraction function to do this specific thing."]]};
